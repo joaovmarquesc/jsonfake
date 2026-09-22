@@ -21,7 +21,7 @@
     
   ],
   "pagamentos": [
-    { "idPagamento": 1, "valorCalculado": 1, "valorPago": "Aluno 1", "troco": "111111111", "formaPagamento": "aluno1@email.com", "dataHora": "1111-1111",},
+    { "idPagamento": 1, "valorCalculado": 1, "valorPago": "Aluno 1", "troco": "111111111", "formaPagamento": "aluno1@email.com", "dataHora": "1111-1111"},
     { "id": 2, "matricula": 2, "nome": "Aluno 2", "cpf": "111111111", "email": "aluno2@email.com", "celular": "2222-2222", "idCurso": 1 },
     { "id": 3, "matricula": 3, "nome": "Aluno 3", "cpf": "111111111", "email": "aluno3@email.com", "celular": "3333-3333", "idCurso": 2 },
     { "id": 4, "matricula": 4, "nome": "Aluno 4", "cpf": "111111111", "email": "aluno4@email.com", "celular": "4444-4444", "idCurso": 2 },
@@ -29,15 +29,15 @@
   ],
 
   "caixaturno": [
-    { "dataHoraAbertura": 1, "dataHoraFechamento": 1, "idTurno": "Aluno 1", "status": "111111111", "valorIncial": "aluno1@email.com", "valorFinal": "1111-1111",},
-    { "dataHoraAbertura": 1, "dataHoraFechamento": 1, "idTurno": "Aluno 1", "status": "111111111", "valorIncial": "aluno1@email.com", "valorFinal": "1111-1111",},
-    { "dataHoraAbertura": 1, "dataHoraFechamento": 1, "idTurno": "Aluno 1", "status": "111111111", "valorIncial": "aluno1@email.com", "valorFinal": "1111-1111",},
-    { "dataHoraAbertura": 1, "dataHoraFechamento": 1, "idTurno": "Aluno 1", "status": "111111111", "valorIncial": "aluno1@email.com", "valorFinal": "1111-1111",}
+    { "dataHoraAbertura": 1, "dataHoraFechamento": 1, "idTurno": "Aluno 1", "status": "111111111", "valorIncial": "aluno1@email.com", "valorFinal": "1111-1111"},
+    { "dataHoraAbertura": 1, "dataHoraFechamento": 1, "idTurno": "Aluno 1", "status": "111111111", "valorIncial": "aluno1@email.com", "valorFinal": "1111-1111"},
+    { "dataHoraAbertura": 1, "dataHoraFechamento": 1, "idTurno": "Aluno 1", "status": "111111111", "valorIncial": "aluno1@email.com", "valorFinal": "1111-1111"},
+    { "dataHoraAbertura": 1, "dataHoraFechamento": 1, "idTurno": "Aluno 1", "status": "111111111", "valorIncial": "aluno1@email.com", "valorFinal": "1111-1111"}
   ],
 
   "movimentacaocaixa": [
-    { "idCaixa": 1, "tipo": 1, "valor": "Aluno 1", "dataHora": "111111111", "motivo": "aluno1@email.com",},
-    { "idCaixa": 1, "tipo": 1, "valor": "Aluno 1", "dataHora": "111111111", "motivo": "aluno1@email.com",},
-    { "idCaixa": 1, "tipo": 1, "valor": "Aluno 1", "dataHora": "111111111", "motivo": "aluno1@email.com",}
+    { "idCaixa": 1, "tipo": 1, "valor": "Aluno 1", "dataHora": "111111111", "motivo": "aluno1@email.com"},
+    { "idCaixa": 1, "tipo": 1, "valor": "Aluno 1", "dataHora": "111111111", "motivo": "aluno1@email.com"},
+    { "idCaixa": 1, "tipo": 1, "valor": "Aluno 1", "dataHora": "111111111", "motivo": "aluno1@email.com"}
    ]
 }
