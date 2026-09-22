@@ -1,1 +1,30 @@
 
+{
+  "usuarios": [
+    { "id": 1, "nome": "Joao", "senha": "1234J@", "email": "mengaomalvadao@.com" },
+    { "id": 1, "nome": "Carol", "senha": "1234J@", "email": "exemplo1@.com" },
+    { "id": 1, "nome": "Maria", "senha": "1234J@", "email": "exemplo2@.com"},
+    
+  ],
+  "categorias": [
+    { "nome": 1, "valorHora": "Curso 1", "valorDiaria": 1, "valorPernoite": 12,0, "vagasTotais": 2, "vagasOcupadas": 2  },
+    { "nome": 1, "valorHora": "Curso 1", "valorDiaria": 1, "valorPernoite": 12,0, "vagasTotais": 2, "vagasOcupadas": 2  },
+    { "nome": 1, "valorHora": "Curso 1", "valorDiaria": 1, "valorPernoite": 12,0, "vagasTotais": 2, "vagasOcupadas": 2  },
+    { "nome": 1, "valorHora": "Curso 1", "valorDiaria": 1, "valorPernoite": 12,0, "vagasTotais": 2, "vagasOcupadas": 2  },
+  
+  ],
+  "tickets": [
+    { "id": 1, "placa": "Professor 1", "dataHoraEntrada": "111111111", "dataHoraSaida": "professor1@email.com", "valor": "1111-1111", "status": "aberto" },
+    { "id": 1, "placa": "Professor 1", "dataHoraEntrada": "111111111", "dataHoraSaida": "professor1@email.com", "valor": "1111-1111", "status": "aberto" },
+    { "id": 1, "placa": "Professor 1", "dataHoraEntrada": "111111111", "dataHoraSaida": "professor1@email.com", "valor": "1111-1111", "status": "aberto" },
+    { "id": 1, "placa": "Professor 1", "dataHoraEntrada": "111111111", "dataHoraSaida": "professor1@email.com", "valor": "1111-1111", "status": "aberto" },
+    
+  ],
+  "pagamentos": [
+    { "idPagamento": 1, "valorCalculado": 1, "valorPago": "Aluno 1", "troco": "111111111", "formaPagamento": "aluno1@email.com", "dataHora": "1111-1111",},
+    { "id": 2, "matricula": 2, "nome": "Aluno 2", "cpf": "111111111", "email": "aluno2@email.com", "celular": "2222-2222", "idCurso": 1 },
+    { "id": 3, "matricula": 3, "nome": "Aluno 3", "cpf": "111111111", "email": "aluno3@email.com", "celular": "3333-3333", "idCurso": 2 },
+    { "id": 4, "matricula": 4, "nome": "Aluno 4", "cpf": "111111111", "email": "aluno4@email.com", "celular": "4444-4444", "idCurso": 2 },
+    { "id": 5, "matricula": 5, "nome": "Aluno 5", "cpf": "111111111", "email": "aluno5@email.com", "celular": "5555-5555", "idCurso": 3 }
+  ]
+}
