@@ -39,7 +39,5 @@
     { "idCaixa": 1, "tipo": 1, "valor": "Aluno 1", "dataHora": "111111111", "motivo": "aluno1@email.com",},
     { "idCaixa": 1, "tipo": 1, "valor": "Aluno 1", "dataHora": "111111111", "motivo": "aluno1@email.com",},
     { "idCaixa": 1, "tipo": 1, "valor": "Aluno 1", "dataHora": "111111111", "motivo": "aluno1@email.com",},
-   
-
-
+   ].
 }
