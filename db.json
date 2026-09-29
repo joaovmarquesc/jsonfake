@@ -3,7 +3,6 @@
   "usuarios": [
     { "nome": "Joao", "senha": "1234J@", "email": "mengaomalvadao@.com" },
     { "nome": "Carol", "senha": "1234J@", "email": "exemplo1@.com" },
-    { "nome": "Maria", "senha": "1234J@", "email": "exemplo2@.com"}
-    
-  ],
+    { "nome": "Maria", "senha": "1234J@", "email": "exemplo2@.com"}  
+  ]
 }
