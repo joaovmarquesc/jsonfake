@@ -1,8 +1,8 @@
 
 {
   "usuarios": [
-    { "id": "1", "nome": "Joao", "senha": "1234J@", "email": "mengaomalvadao@.com" },
-    { "id": "2", "nome": "Caio", "senha": "1234J@", "email": "exemplo1@.com" },
-    { "id": "3","nome": "Maria", "senha": "1234J@", "email": "exemplo2@.com"}  
+    { "nome": "Joao", "senha": "1234J@", "email": "mengaomalvadao@.com" },
+    { "nome": "Caio", "senha": "1234J@", "email": "exemplo1@.com" },
+    { "nome": "Maria", "senha": "1234J@", "email": "exemplo2@.com"}  
   ]
 }
