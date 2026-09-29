@@ -2,33 +2,5 @@
   "usuarios": [
     { "id": 1, "nome": "Joao", "senha": "1234J@", "email": "mengaomalvadao@.com" },
     { "id": 2, "nome": "Carol", "senha": "1234J@", "email": "carolcrazy@.com" }
-  ],
-
-  "categorias": [
-    { "id": 1, "nome": "Carro", "valorHora": 10, "vagasTotais": 50, "vagasOcupadas": 10 },
-    { "id": 2, "nome": "Moto", "valorHora": 6, "vagasTotais": 20, "vagasOcupadas": 5 },
-    { "id": 3, "nome": "Caminhão", "valorHora": 30, "vagasTotais": 15, "vagasOcupadas": 2 },
-    { "id": 4, "nome": "Van", "valorHora": 25, "vagasTotais": 2, "vagasOcupadas": 2 }
-  ],
-
-  "caixaturno": [
-    { "id": 1, "dataHoraAbertura": "28/07/2026 08:00", "status": "ABERTO", "valorInicial": 20.0, "usuarioId": 1 },
-    { "id": 2, "dataHoraAbertura": "27/07/2026 08:00", "status": "FECHADO", "valorInicial": 100.0, "usuarioId": 2 }
-  ],
-
-  "tickets": [
-    { "id": 101, "placa": "ABC1234", "dataHoraEntrada": "28/07/2026 09:20", "categoriaId": 1, "usuarioId": 1 },
-    { "id": 102, "placa": "XYZ9876", "dataHoraEntrada": "27/07/2026 10:00", "categoriaId": 2, "usuarioId": 2 },
-    { "id": 103, "placa": "KGM5544", "dataHoraEntrada": "28/07/2026 09:00", "categoriaId": 1, "usuarioId": 1 }
-  ],
-
-  "pagamentos": [
-    { "id": 1, "valorPago": 20.0, "formaPagamento": "PIX", "ticketId": 103, "caixaturnoId": 1 },
-    { "id": 2, "valorPago": 18.0, "formaPagamento": "PIX", "ticketId": 102, "caixaturnoId": 2 }
-  ],
-
-  "movimentacaocaixa": [
-    { "id": 1, "tipo": "SANGRIA", "valor": 50.0, "motivo": "Retirada troco", "caixaturnoId": 1 },
-    { "id": 2, "tipo": "REFORCO", "valor": 30.0, "motivo": "Notas para troco", "caixaturnoId": 2 }
   ]
 }
