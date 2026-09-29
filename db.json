@@ -14,12 +14,12 @@
     
   ],
   "tickets": [
-    { "placa": "ABC1234", "dataHoraEntrada": "05/02/2000 12:00", "05/02/2000 14:00", "valor": "1111-1111", "status": "aberto", "idcategoria": 2 },
-    { "placa": "ABC1234", "dataHoraEntrada": "111111111", "dataHoraSaida": "professor1@email.com", "valor": "1111-1111", "status": "aberto", "idcategoria": 1 },
-    { "placa": "ABC1234", "dataHoraEntrada": "111111111", "dataHoraSaida": "professor1@email.com", "valor": "1111-1111", "status": "aberto", "idcategoria": 3 },
-    { "placa": "ABC1234", "dataHoraEntrada": "111111111", "dataHoraSaida": "professor1@email.com", "valor": "1111-1111", "status": "aberto", "idcategoria": 4 }
-    
-  ],
+    { "placa": "ABC1234", "dataHoraEntrada": "05/02/2000 12:00", "dataHoraSaida": "05/02/2000", "valor": "1111-1111", "status": "aberto"},
+    { "placa": "ABC1234", "dataHoraEntrada": "05/02/2000 12:00", "dataHoraSaida": "05/02/2000", "valor": "1111-1111", "status": "aberto"},
+    { "placa": "ABC1234", "dataHoraEntrada": "05/02/2000 12:00", "dataHoraSaida": "05/02/2000", "valor": "1111-1111", "status": "aberto"},
+    { "placa": "ABC1234", "dataHoraEntrada": "05/02/2000 12:00", "dataHoraSaida": "05/02/2000", "valor": "1111-1111", "status": "aberto"}
+    ],
+  
   "pagamentos": [
     { "valorCalculado": 1, "valorPago": "Aluno 1", "troco": "111111111", "formaPagamento": "aluno1@email.com", "dataHora": "1111-1111"},
     { "valorCalculado": 1, "valorPago": "Aluno 1", "troco": "111111111", "formaPagamento": "aluno1@email.com", "dataHora": "1111-1111"},
@@ -29,15 +29,15 @@
   ],
 
   "caixaturno": [
-    { "dataHoraAbertura": 1, "dataHoraFechamento": 1, "idTurno": "Aluno 1", "status": "111111111", "valorIncial": "aluno1@email.com", "valorFinal": "1111-1111"},
-    { "dataHoraAbertura": 1, "dataHoraFechamento": 1, "idTurno": "Aluno 1", "status": "111111111", "valorIncial": "aluno1@email.com", "valorFinal": "1111-1111"},
-    { "dataHoraAbertura": 1, "dataHoraFechamento": 1, "idTurno": "Aluno 1", "status": "111111111", "valorIncial": "aluno1@email.com", "valorFinal": "1111-1111"},
-    { "dataHoraAbertura": 1, "dataHoraFechamento": 1, "idTurno": "Aluno 1", "status": "111111111", "valorIncial": "aluno1@email.com", "valorFinal": "1111-1111"}
+    { "dataHoraAbertura": 1, "dataHoraFechamento": 1, "status": "111111111", "valorIncial": "aluno1@email.com", "valorFinal": "1111-1111"},
+    { "dataHoraAbertura": 1, "dataHoraFechamento": 1, "status": "111111111", "valorIncial": "aluno1@email.com", "valorFinal": "1111-1111"},
+    { "dataHoraAbertura": 1, "dataHoraFechamento": 1, "status": "111111111", "valorIncial": "aluno1@email.com", "valorFinal": "1111-1111"},
+    { "dataHoraAbertura": 1, "dataHoraFechamento": 1, "status": "111111111", "valorIncial": "aluno1@email.com", "valorFinal": "1111-1111"}
   ],
 
   "movimentacaocaixa": [
-    { "idCaixa": 1, "tipo": 1, "valor": "Aluno 1", "dataHora": "111111111", "motivo": "aluno1@email.com"},
-    { "idCaixa": 1, "tipo": 1, "valor": "Aluno 1", "dataHora": "111111111", "motivo": "aluno1@email.com"},
-    { "idCaixa": 1, "tipo": 1, "valor": "Aluno 1", "dataHora": "111111111", "motivo": "aluno1@email.com"}
+    { "tipo": 1, "valor": "Aluno 1", "dataHora": "111111111", "motivo": "aluno1@email.com"},
+    { "tipo": 1, "valor": "Aluno 1", "dataHora": "111111111", "motivo": "aluno1@email.com"},
+    { "tipo": 1, "valor": "Aluno 1", "dataHora": "111111111", "motivo": "aluno1@email.com"}
    ]
 }
