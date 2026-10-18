@@ -1,17 +1,17 @@
 {
   "usuarios": [
-    { "id": 1, "nome": "Joao", "senha": "1234J@", "email": "mengaomalvadao@.com" },
-    { "id": 2, "nome": "Carol", "senha": "1234J@", "email": "carolcrazy@.com" }
+    { "id": 1, "nome": "Joao", "senha": "1234J@", "email": "mengaomalvadao@gmail.com" },
+    { "id": 2, "nome": "Carol", "senha": "1234J@", "email": "carolcrazy@gmail.com" }
   ],
 
   "categorias": [
-    { "id": 1, "nome": "Carro", "valorHora": 10, "valorDiaria": 50, "valorPernoite": 70, "vagasTotais": 50, "vagasOcupadas": 10 },
-    { "id": 2, "nome": "Moto", "valorHora": 6, "valorDiaria": 30, "valorPernoite": 45, "vagasTotais": 20, "vagasOcupadas": 5 },
-    { "id": 3, "nome": "Caminhão", "valorHora": 30, "valorDiaria": 60, "valorPernoite": 90, "vagasTotais": 15, "vagasOcupadas": 2 },
-    { "id": 4, "nome": "Van", "valorHora": 25, "valorDiaria": 35, "valorPernoite": 80, "vagasTotais": 2, "vagasOcupadas": 2 }
+    { "id": 1, "nome": "Carro", "valorHora": 10, "valorDiaria": 50, "valorPernoite": 70, "vagasTotais": 50, "vagasOcupadas": 1 },
+    { "id": 2, "nome": "Moto", "valorHora": 6, "valorDiaria": 30, "valorPernoite": 45, "vagasTotais": 20, "vagasOcupadas": 0 },
+    { "id": 3, "nome": "Caminhão", "valorHora": 30, "valorDiaria": 60, "valorPernoite": 90, "vagasTotais": 15, "vagasOcupadas": 0 },
+    { "id": 4, "nome": "Van", "valorHora": 25, "valorDiaria": 35, "valorPernoite": 80, "vagasTotais": 2, "vagasOcupadas": 0 }
   ],
 
-  "caixaturno": [
+  "caixasTurno": [
     { "id": 1, "dataHoraAbertura": "28/07/2026 08:00:00", "dataHoraFechamento": null, "status": "ABERTO", "valorInicial": 20.0, "valorFinal": null, "usuarioId": 1 },
     { "id": 2, "dataHoraAbertura": "27/07/2026 08:00:00", "dataHoraFechamento": "27/07/2026 18:00:00", "status": "FECHADO", "valorInicial": 100.0, "valorFinal": 450.0, "usuarioId": 2 }
   ],
@@ -23,12 +23,12 @@
   ],
 
   "pagamentos": [
-    { "id": 1, "valorCalculado": 20.0, "valorPago": 20.0, "troco": 0.0, "formaPagamento": "PIX", "dataHora": "28/07/2026 11:00:00", "ticketId": 103, "caixaturnoId": 1 },
-    { "id": 2, "valorCalculado": 18.0, "valorPago": 18.0, "troco": 0.0, "formaPagamento": "PIX", "dataHora": "27/07/2026 13:00:00", "ticketId": 102, "caixaturnoId": 2 }
+    { "id": 1, "valorCalculado": 20.0, "valorPago": 20.0, "troco": 0.0, "formaPagamento": "PIX", "dataHora": "28/07/2026 11:00:00", "ticketId": 103, "caixaTurnoId": 1 },
+    { "id": 2, "valorCalculado": 18.0, "valorPago": 18.0, "troco": 0.0, "formaPagamento": "PIX", "dataHora": "27/07/2026 13:00:00", "ticketId": 102, "caixaTurnoId": 2 }
   ],
 
-  "movimentacaocaixa": [
-    { "id": 1, "tipo": "SANGRIA", "valor": 50.0, "dataHora": "28/07/2026 10:15:00", "motivo": "Retirada troco", "caixaturnoId": 1 },
-    { "id": 2, "tipo": "REFORCO", "valor": 30.0, "dataHora": "27/07/2026 12:16:00", "motivo": "Notas para troco", "caixaturnoId": 2 }
+  "movimentacoesCaixa": [
+    { "id": 1, "tipo": "SANGRIA", "valor": 50.0, "dataHora": "28/07/2026 10:15:00", "motivo": "Retirada troco", "caixaTurnoId": 1 },
+    { "id": 2, "tipo": "REFORCO", "valor": 30.0, "dataHora": "27/07/2026 12:16:00", "motivo": "Notas para troco", "caixaTurnoId": 2 }
   ]
 }
